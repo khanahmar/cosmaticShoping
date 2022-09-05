@@ -66,6 +66,8 @@ li a:hover {
   height: 600px;
   background-image: url(/pic/home.jpg);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   align-items: center;
 }
 .home h1 {
@@ -100,7 +102,7 @@ li a:hover {
 }
 .brands-h1:hover {
   transform: translate(10%);
-  transition-delay: .2s;
+  transition-delay: 0.2s;
 }
 .brands img {
   margin: 40px;
